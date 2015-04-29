@@ -12,79 +12,53 @@
         android:numeric="decimal"
     />
 
-    <PreferenceCategory android:title="@string/background_cat">
+    <com.att.preference.colorpicker.ColorPickerPreference
+        android:key="background_color"
+        android:title="@string/bg_color_title"
+        android:defaultValue="@integer/COLOR_BLACK"
+    />
 
-        <com.att.preference.colorpicker.ColorPickerPreference
-            android:key="background_color"
-            android:title="@string/bg_color_title"
-            android:defaultValue="@integer/COLOR_BLACK"
-        />
+    <com.att.preference.colorpicker.ColorPickerPreference
+        android:key="mod_color"
+        android:title="@string/mod_color_title"
+        android:defaultValue="@integer/COLOR_BLACK"
+    />
 
-        <com.att.preference.colorpicker.ColorPickerPreference
-            android:key="mod_color"
-            android:title="@string/mod_color_title"
-            android:defaultValue="@integer/COLOR_BLACK"
-        />
+    <org.mosspaper.prefs.SizePreference
+        android:key="font_size"
+        android:title="@string/font_size_title"
+        android:singleLine="true"
+        android:numeric="decimal"
+    />
 
-    </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/font_cat">
+    <org.mosspaper.prefs.SizePreference
+        android:key="gap_x"
+        android:title="@string/gap_x"
+        android:singleLine="true"
+        android:numeric="decimal"
+        app:min="0" app:max="500"
+    />
 
-        <org.mosspaper.prefs.SizePreference
-            android:key="font_size"
-            android:title="@string/font_size_title"
-            android:singleLine="true"
-            android:numeric="decimal"
-            />
+    <org.mosspaper.prefs.SizePreference
+        android:key="gap_y"
+        android:title="@string/gap_y"
+        android:singleLine="true"
+        android:numeric="decimal"
+        app:min="0" app:max="500"
+    />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="@string/font_cat">
-
-        <org.mosspaper.prefs.SizePreference
-            android:key="font_size"
-            android:title="@string/font_size_title"
-            android:singleLine="true"
-            android:numeric="decimal"
-            />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="@string/gap_cat">
-
-        <org.mosspaper.prefs.SizePreference
-            android:key="gap_x"
-            android:title="@string/gap_x"
-            android:singleLine="true"
-            android:numeric="decimal"
-            app:min="0" app:max="500"
-            />
-
-        <org.mosspaper.prefs.SizePreference
-            android:key="gap_y"
-            android:title="@string/gap_y"
-            android:singleLine="true"
-            android:numeric="decimal"
-            app:min="0" app:max="500"
-            />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="@string/config_custom_cat">
-
-        <EditTextPreference
-            android:key="config_file"
-            android:title="@string/config_file"
-            android:singleLine="true"
-            />
-
-    </PreferenceCategory>
+    <EditTextPreference
+        android:key="config_file"
+        android:title="@string/config_file"
+        android:singleLine="true"
+    />
 
     <Preference
         android:key="config_reset"
         android:title="@string/reset"
         android:summary="@string/reset_summary"
         android:singleLine="true"
-        />
+    />
 
 </PreferenceScreen>

@@ -75,6 +75,13 @@ public class PackageDatabase extends SQLiteOpenHelper {
         c4.confFile = "full.conf";
         c4.asset = true;
         storePackage(db, c4);
+
+        Package c5 = new Package();
+        c5.name = mContext.getString(R.string.config_scar45);
+        c5.desc = mContext.getString(R.string.config_scar45_desc);
+        c5.confFile = "scar45.conf";
+        c5.asset = true;
+        storePackage(db, c5);
     }
 
     @Override

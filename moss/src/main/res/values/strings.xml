@@ -17,34 +17,34 @@
 
     <string name="background_cat">Background</string>
     <string name="bg_image_title">Image</string>
-    <string name="bg_color_title">Color</string>
-    <string name="mod_color_title">Mod Color</string>
+    <string name="bg_color_title">Background Color</string>
+    <string name="mod_color_title">Overlay Effect Color</string>
 
     <string name="font_cat">Font</string>
     <string name="font_size_title">Font Size</string>
     <string name="font_face_title">Font Family</string>
 
     <string name="gap_cat">Gap</string>
-    <string name="gap_x">X</string>
-    <string name="gap_y">Y</string>
+    <string name="gap_x">Gap (X axis)</string>
+    <string name="gap_y">Gap (Y axis)</string>
 
     <string name="pick_a_color">Select a color: </string>
     <string name="dia_errors_title">Configuration Errors</string>
 
     <string name="moss_viewer">Moss Viewer</string>
     <string name="configs">Configurations</string>
-    <string name="configs_summary">Select from a list of configurations.</string>
+    <string name="configs_summary">Select from a list of example configurations</string>
     <string name="custom_config_file">Custom Config File</string>
 
     <string name="reloading">Reloading</string>
     <string name="reload">Reload</string>
-    <string name="reload_summary">Force Moss to reload your configuration.</string>
+    <string name="reload_summary">Force Moss to reload your configuration</string>
     <string name="overrides">Overrides</string>
-    <string name="overrides_summary">Override different configuration settings.</string>
+    <string name="overrides_summary">Override different configuration settings</string>
     <string name="reset">Reset</string>
     <string name="reset_summary">Reset all preferences and reload the default values from the configuration file.</string>
     <string name="help">Help</string>
-    <string name="help_summary">Display the Moss help pages.</string>
+    <string name="help_summary">Display the Moss help pages</string>
 
 
     <string name="misc">Miscellaneous</string>
@@ -61,6 +61,9 @@
 
     <string name="config_full">Large Configuration</string>
     <string name="config_full_desc">Includes many different objects.</string>
+
+    <string name="config_scar45">scar45\'s Configuration</string>
+    <string name="config_scar45_desc">Based on UBUNTU-CONKY by Pengo.</string>
 
     <string name="remove">Remove</string>
 

@@ -74,7 +74,7 @@ public class SizePreference extends DialogPreference implements OnSeekBarChangeL
                     ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT));
 
         mText = new TextView(getContext());
-		mText.setPadding(10, 10, 10, 10);
+		mText.setPadding(80, 80, 80, 0);
         mText.setTextAppearance(getContext(), android.R.attr.textAppearanceLarge);
         layout.addView(mText);
 
@@ -82,7 +82,7 @@ public class SizePreference extends DialogPreference implements OnSeekBarChangeL
 		SeekBar sb = new SeekBar(getContext());
 		sb.setMax(mMax - mMin);
 		sb.setProgress(mProgress - mMin);
-		sb.setPadding(10, 10, 10, 10);
+		sb.setPadding(80, 20, 80, 0);
 		sb.setOnSeekBarChangeListener(this);
         layout.addView(sb);
 

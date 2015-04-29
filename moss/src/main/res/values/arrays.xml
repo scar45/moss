@@ -6,6 +6,7 @@
         <item>Network Emphasis</item>
         <item>Process Emphasis</item>
         <item>Large Configuration</item>
+        <item>scar45</item>
         <item>Custom</item>
     </string-array>
 
@@ -14,6 +15,7 @@
         <item>network.conf</item>
         <item>process.conf</item>
         <item>full.conf</item>
+        <item>scar45.conf</item>
         <item>CUSTOM</item>
     </string-array>
 
