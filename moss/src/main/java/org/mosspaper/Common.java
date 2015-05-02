@@ -133,5 +133,5 @@ public class Common {
     }
 
 
-    static String[] suffixes = {"B", "KiB", "MiB", "GiB", "TiB", "PiB", ""};
+    static String[] suffixes = {" B", " KB", " MB", " GB", " TB", " PB", ""};
 }

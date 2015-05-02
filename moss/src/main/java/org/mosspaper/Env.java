@@ -13,6 +13,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.os.Handler;
 import android.os.FileObserver;
@@ -234,7 +235,20 @@ public class Env {
         c.save();
         c.drawColor(this.backgroundColor);
         if (null != backgroundImage) {
-            c.drawBitmap(backgroundImage, 0, 0, paint);
+
+            float bgWidth = getPaperWidth();
+            float bgHeight = getPaperHeight();
+
+            Paint paint = new Paint();
+                paint.setAntiAlias(true);
+                paint.setFilterBitmap(true);
+                paint.setDither(true);
+
+            Rect rekt = new Rect();
+            c.getClipBounds(rekt);
+
+            c.drawBitmap(backgroundImage, null, rekt, paint);
+
         } else {
             if (this.modColor != -1) {
                 int orig = paint.getColor();
