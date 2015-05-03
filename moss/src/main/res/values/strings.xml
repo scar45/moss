@@ -62,8 +62,11 @@
     <string name="config_full">Large Configuration</string>
     <string name="config_full_desc">Includes many different objects.</string>
 
-    <string name="config_scar45">scar45\'s Configuration</string>
-    <string name="config_scar45_desc">Based on UBUNTU-CONKY by Pengo.</string>
+    <string name="config_pcb_blue">PCB Blue</string>
+    <string name="config_pcb_blue_desc">A circuit board theme with orange accents.</string>
+
+    <string name="config_retrolcd">Retro LCD</string>
+    <string name="config_retrolcd_desc">Bring back liquid crystal displays of memories past.</string>
 
     <string name="remove">Remove</string>
 

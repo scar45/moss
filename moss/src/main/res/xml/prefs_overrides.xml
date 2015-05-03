@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen 
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:app="http://schemas.android.com/apk/org.mosspaper.prefs"
         android:title="@string/settings"
         android:key="settings">
 
@@ -15,7 +15,7 @@
     <com.att.preference.colorpicker.ColorPickerPreference
         android:key="background_color"
         android:title="@string/bg_color_title"
-        android:defaultValue="@integer/COLOR_BLACK"
+        android:defaultValue="@integer/COLOR_GREEN"
     />
 
     <com.att.preference.colorpicker.ColorPickerPreference
