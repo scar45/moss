@@ -8,6 +8,7 @@
         <item>Large Configuration</item>
         <item>PCB Blue</item>
         <item>Retro LCD</item>
+        <item>Solar Burn</item>
     </string-array>
 
     <string-array name="config_sample_values">
@@ -17,6 +18,7 @@
         <item>full.conf</item>
         <item>pcb-blue.conf</item>
         <item>lcd.conf</item>
+        <item>solar-burn.conf</item>
     </string-array>
 
     <array name="font_sizes">

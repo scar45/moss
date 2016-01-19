@@ -89,6 +89,13 @@ public class PackageDatabase extends SQLiteOpenHelper {
         c6.confFile = "lcd.conf";
         c6.asset = true;
         storePackage(db, c6);
+
+        Package c7 = new Package();
+        c7.name = mContext.getString(R.string.config_solarburn);
+        c7.desc = mContext.getString(R.string.config_solarburn_desc);
+        c7.confFile = "solar-burn.conf";
+        c7.asset = true;
+        storePackage(db, c7);
     }
 
     @Override

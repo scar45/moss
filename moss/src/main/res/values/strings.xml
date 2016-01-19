@@ -68,6 +68,9 @@
     <string name="config_retrolcd">Retro LCD</string>
     <string name="config_retrolcd_desc">Bring back liquid crystal displays of memories past.</string>
 
+    <string name="config_solarburn">Solar Burn</string>
+    <string name="config_solarburn_desc">PRT-XUBUNTU style.</string>
+
     <string name="remove">Remove</string>
 
     <string name="beginning_download">Beginning download</string>
